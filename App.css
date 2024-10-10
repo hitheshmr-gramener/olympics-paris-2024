@@ -1,0 +1,79 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background for a clean look */
+  color: #333333; /* Dark gray for text for better readability */
+}
+
+.navbar {
+  background-color: #003366; /* Navy blue for navbar */
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: rgb(0, 20, 50); /* Keep links white for contrast */
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  color: #003366; /* Navy blue for section headings */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.home {
+  background-color: #f0f0f0; /* Light gray for home section for subtle contrast */
+  padding: 30px 10px;
+}
+
+.home p {
+  font-size: 1.2em;
+  color: rgb(0, 0, 0); /* Medium gray for text */
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}

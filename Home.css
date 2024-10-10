@@ -1,0 +1,57 @@
+/* Home.css */
+
+.section.home {
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000000; /* Navy blue for headings */
+}
+
+.home-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between logo and torch */
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px; /* Adjust size as necessary */
+  height: auto;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-top: 20px;
+  color: #ffc400; /* Dark gray for paragraph text */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #003366; /* Navy blue for navbar */
+  color: #ffae00; /* White text color for navbar items */
+  padding: 15px; /* Spacing around items */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-around; /* Space between items */
+  align-items: center; /* Center items vertically */
+  position: sticky; /* Make navbar sticky */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar a {
+  color: #ffae00; /* White text color for links */
+  text-decoration: none; /* Remove underline from links */
+  padding: 15px 20px; /* Padding around links */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.navbar a:hover {
+  background-color: #ffd483; /* Light gray on hover for contrast */
+  color: #003366; /* Navy blue text on hover */
+}
